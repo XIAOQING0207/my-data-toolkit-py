@@ -1,19 +1,24 @@
-# my-data-toolkit-py
-data-toolkit-py is a Python library designed to streamline your data workflow by providing a set of robust, reusable utilities for common data processing tasks. It simplifies everything from file handling to data preparation and reporting. This project is actively maintained.
+# Data Toolkit Python
 
-my-data-toolkit-py/                # 项目根目录
-│
-├── src/                           # 源代码目录
-│   ├── __init__.py               # 使src成为Python包
-│   ├── file_processor.py         # 包含LocalFolder类
-│   └── dataframe_processor.py    # 包含DataFrameOpe类
-│
-├── examples/                     # 使用示例
-│   └── basic_usage.py
-│
-├── tests/                        # 测试文件（可选）
-│   └── test_basic_functionality.py
-│
-├── requirements.txt              # 项目依赖
-├── .gitignore                   # Git忽略文件
-└── README.md                    # 项目说明文档
+A Python toolkit for efficient local file operations and DataFrame processing.
+
+## Features
+
+### File Operations (`LocalFolder` class)
+- Scan and analyze local folders
+- Find files by type and keywords
+- Read Excel/CSV files with flexible tab selection
+- Create new folder structures
+- Export DataFrames to Excel
+
+### DataFrame Processing (`DataFrameOpe` class)
+- Automatic header detection and reset
+- Patient ID-based index resetting
+- DataFrame attribute analysis
+
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/XIAOQING0207/my-data-toolkit-py.git
+cd my-data-toolkit-py
