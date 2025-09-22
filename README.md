@@ -19,11 +19,11 @@ A Python toolkit for efficient local file operations and DataFrame processing.
 ## Installation
 
 1. Clone this repository:
-```bash
+bash
 git clone https://github.com/XIAOQING0207/my-data-toolkit-py.git
 cd my-data-toolkit-py
 
 2. Install dependencies:
 
-```bash
+bash
 pip install -r requirements.txt
