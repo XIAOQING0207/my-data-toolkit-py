@@ -22,3 +22,8 @@ A Python toolkit for efficient local file operations and DataFrame processing.
 ```bash
 git clone https://github.com/XIAOQING0207/my-data-toolkit-py.git
 cd my-data-toolkit-py
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
